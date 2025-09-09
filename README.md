@@ -5,6 +5,7 @@ The user can then be set up with a username and password, which will get saved i
 with the contents of this folder and authenticates the user when they have entered the correct username and password. Else, an error message is displaying informing the
 user that their credentials are incorrect. The user is then taken to a simple chatroom, where they can freely input whatever they want and the information is logged
 in an auxiliary cmd windows which displays the textual contents of the user's messages, including actions undertaken by the user such a entering or leaving the chat.
-The whole setup is organised into a simple 3-folder structure. The directory "C:\analyst\batch\chat" should house the file titled: corrected.bat. The directory
+Running the file logon_to_chat should be enough to set up the whole environment necessary to successfully execute this application. In case it doesn't, please observe
+that the whole setup is organised into a simple 3-folder structure. The directory "C:\analyst\batch\chat" should house the file titled: corrected.bat. The directory
 "C:\analyst\batch\program_files" should contain the files chatroom.chat and nsgbox.bat. The directory "C:\analyst\batch\users"starts out empty and will eventually get populated
 with txt files holding the information for usernames and passwords of the created users. 
